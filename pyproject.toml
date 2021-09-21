@@ -1,0 +1,21 @@
+[build-system]
+requires = [ "poetry-core>=1.0.0",]
+build-backend = "poetry.core.masonry.api"
+
+[dsb]
+title = "untitled_tjnd"
+folder = "untitled_tjnd"
+ignored = "-"
+
+[tool.poetry]
+name = "src"
+version = "0.1.0"
+description = "No description."
+authors = [ "Lana Mesquita <lana.mesquita@ufc.br>",]
+repository = ""
+license = "None"
+
+[tool.poetry.dependencies]
+python = "3.8.10"
+
+[tool.poetry.dev-dependencies]
